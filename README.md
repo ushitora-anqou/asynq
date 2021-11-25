@@ -1,1 +1,18 @@
 # AsynQ
+
+## Build
+
+```sh
+$ go build
+```
+
+## Usage
+
+```sh
+$ AWS_ACCESS_KEY_ID="YOUR_AWS_ACCESS_KEY_ID" \
+  AWS_SECRET_ACCESS_KEY="YOUR_AWS_SECRET_ACCESS_KEY" \
+  S3_BUCKET="YOUR_S3_BUCKET" \
+  S3_ENDPOINT="YOUR_S3_ENDPOINT" \
+  S3_REGION="YOUR_S3_REGION" \
+      ./asynq
+```
